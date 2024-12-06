@@ -23,6 +23,6 @@ function submitForm(event) {
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
-    alert(`Thank you, ${name}! Your message has been received.\n\nEmail: ${email}\nMessage: ${message}`);
+    alert(`Thank you, ${name}! hi Your Message has been received.\n\nEmail: ${email}\nMessage: ${message}`);
     document.getElementById('contact-form').reset(); // Clear form after submission
 }
